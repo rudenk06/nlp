@@ -1,0 +1,769 @@
+Dataset,LSA,k,Preprocess,Vectorizer,Part Speech,Stopwords,Model,F1 Score
+ag_news,False,,none,frequency,none,False,Decision Tree,0.8235519983696344
+ag_news,False,,none,frequency,none,False,Random Forest,0.8921225469333223
+ag_news,False,,none,frequency,none,False,Gradient Boosting,0.8287521463639415
+ag_news,False,,none,frequency,none,False,AdaBoost,0.6773933830674053
+ag_news,False,,none,frequency,none,True,Decision Tree,0.6986619189239712
+ag_news,False,,none,frequency,none,True,Random Forest,0.7940655543112232
+ag_news,False,,none,frequency,none,True,Gradient Boosting,0.6961246058688519
+ag_news,False,,none,frequency,none,True,AdaBoost,0.5334281853159726
+ag_news,False,,none,frequency,noun,False,Decision Tree,0.8167387285943857
+ag_news,False,,none,frequency,noun,False,Random Forest,0.8775175673996154
+ag_news,False,,none,frequency,noun,False,Gradient Boosting,0.7927815020069587
+ag_news,False,,none,frequency,noun,False,AdaBoost,0.6278894318884781
+ag_news,False,,none,frequency,noun,True,Decision Tree,0.4766049465379922
+ag_news,False,,none,frequency,noun,True,Random Forest,0.5036445449668654
+ag_news,False,,none,frequency,noun,True,Gradient Boosting,0.40750278250433536
+ag_news,False,,none,frequency,noun,True,AdaBoost,0.27238400260298146
+ag_news,False,,none,tfidf,none,False,Decision Tree,0.8100498296992491
+ag_news,False,,none,tfidf,none,False,Random Forest,0.8941473993272555
+ag_news,False,,none,tfidf,none,False,Gradient Boosting,0.8285478582644877
+ag_news,False,,none,tfidf,none,False,AdaBoost,0.6767890865013362
+ag_news,False,,none,tfidf,none,True,Decision Tree,0.6926198194124777
+ag_news,False,,none,tfidf,none,True,Random Forest,0.796204264547661
+ag_news,False,,none,tfidf,none,True,Gradient Boosting,0.6969431300809142
+ag_news,False,,none,tfidf,none,True,AdaBoost,0.5332806882817009
+ag_news,False,,none,tfidf,noun,False,Decision Tree,0.8043617555640087
+ag_news,False,,none,tfidf,noun,False,Random Forest,0.8762747861652892
+ag_news,False,,none,tfidf,noun,False,Gradient Boosting,0.7926310057069719
+ag_news,False,,none,tfidf,noun,False,AdaBoost,0.627750539843338
+ag_news,False,,none,tfidf,noun,True,Decision Tree,0.4768267576418478
+ag_news,False,,none,tfidf,noun,True,Random Forest,0.513572676651513
+ag_news,False,,none,tfidf,noun,True,Gradient Boosting,0.4080558440371831
+ag_news,False,,none,tfidf,noun,True,AdaBoost,0.27603450273346414
+ag_news,False,,lemma,frequency,none,False,Decision Tree,0.8256672362670467
+ag_news,False,,lemma,frequency,none,False,Random Forest,0.8950683739735739
+ag_news,False,,lemma,frequency,none,False,Gradient Boosting,0.8316801348023442
+ag_news,False,,lemma,frequency,none,False,AdaBoost,0.6896035721289125
+ag_news,False,,lemma,frequency,none,True,Decision Tree,0.7006831540601479
+ag_news,False,,lemma,frequency,none,True,Random Forest,0.793788072637997
+ag_news,False,,lemma,frequency,none,True,Gradient Boosting,0.7008958062950104
+ag_news,False,,lemma,frequency,none,True,AdaBoost,0.5478871529775564
+ag_news,False,,lemma,frequency,noun,False,Decision Tree,0.8127275691020378
+ag_news,False,,lemma,frequency,noun,False,Random Forest,0.8821538531461234
+ag_news,False,,lemma,frequency,noun,False,Gradient Boosting,0.8023480564356745
+ag_news,False,,lemma,frequency,noun,False,AdaBoost,0.6425120498214636
+ag_news,False,,lemma,frequency,noun,True,Decision Tree,0.46762295013087857
+ag_news,False,,lemma,frequency,noun,True,Random Forest,0.4933110080425375
+ag_news,False,,lemma,frequency,noun,True,Gradient Boosting,0.41355061547327127
+ag_news,False,,lemma,frequency,noun,True,AdaBoost,0.28868224155599687
+ag_news,False,,lemma,tfidf,none,False,Decision Tree,0.8186946711386991
+ag_news,False,,lemma,tfidf,none,False,Random Forest,0.8961446705838337
+ag_news,False,,lemma,tfidf,none,False,Gradient Boosting,0.832281815741083
+ag_news,False,,lemma,tfidf,none,False,AdaBoost,0.69224875721407
+ag_news,False,,lemma,tfidf,none,True,Decision Tree,0.6966735004130219
+ag_news,False,,lemma,tfidf,none,True,Random Forest,0.797852541564433
+ag_news,False,,lemma,tfidf,none,True,Gradient Boosting,0.701423246002092
+ag_news,False,,lemma,tfidf,none,True,AdaBoost,0.5483670254038826
+ag_news,False,,lemma,tfidf,noun,False,Decision Tree,0.8032140710994032
+ag_news,False,,lemma,tfidf,noun,False,Random Forest,0.8807563490197293
+ag_news,False,,lemma,tfidf,noun,False,Gradient Boosting,0.8016894102723512
+ag_news,False,,lemma,tfidf,noun,False,AdaBoost,0.6492524227216318
+ag_news,False,,lemma,tfidf,noun,True,Decision Tree,0.46884366516992393
+ag_news,False,,lemma,tfidf,noun,True,Random Forest,0.5023551528350576
+ag_news,False,,lemma,tfidf,noun,True,Gradient Boosting,0.415972332652462
+ag_news,False,,lemma,tfidf,noun,True,AdaBoost,0.2910980068358892
+ag_news,False,,stem,frequency,none,False,Decision Tree,0.8232000073796446
+ag_news,False,,stem,frequency,none,False,Random Forest,0.8945559681853611
+ag_news,False,,stem,frequency,none,False,Gradient Boosting,0.8327980228788779
+ag_news,False,,stem,frequency,none,False,AdaBoost,0.7016872573496669
+ag_news,False,,stem,frequency,none,True,Decision Tree,0.6874410475230786
+ag_news,False,,stem,frequency,none,True,Random Forest,0.791257200611091
+ag_news,False,,stem,frequency,none,True,Gradient Boosting,0.7027996147274918
+ag_news,False,,stem,frequency,none,True,AdaBoost,0.5510278452717148
+ag_news,False,,stem,frequency,noun,False,Decision Tree,0.8115058384358014
+ag_news,False,,stem,frequency,noun,False,Random Forest,0.8809499773167792
+ag_news,False,,stem,frequency,noun,False,Gradient Boosting,0.8005782580664333
+ag_news,False,,stem,frequency,noun,False,AdaBoost,0.656613960009538
+ag_news,False,,stem,frequency,noun,True,Decision Tree,0.46653509978636776
+ag_news,False,,stem,frequency,noun,True,Random Forest,0.4926815285567734
+ag_news,False,,stem,frequency,noun,True,Gradient Boosting,0.41301334262764466
+ag_news,False,,stem,frequency,noun,True,AdaBoost,0.2876237019846565
+ag_news,False,,stem,tfidf,none,False,Decision Tree,0.813832121831185
+ag_news,False,,stem,tfidf,none,False,Random Forest,0.8967302417567963
+ag_news,False,,stem,tfidf,none,False,Gradient Boosting,0.8341307180909949
+ag_news,False,,stem,tfidf,none,False,AdaBoost,0.7015948665335598
+ag_news,False,,stem,tfidf,none,True,Decision Tree,0.6884553813880765
+ag_news,False,,stem,tfidf,none,True,Random Forest,0.7952586178613332
+ag_news,False,,stem,tfidf,none,True,Gradient Boosting,0.7032939849164639
+ag_news,False,,stem,tfidf,none,True,AdaBoost,0.5510328174519598
+ag_news,False,,stem,tfidf,noun,False,Decision Tree,0.8004349880414721
+ag_news,False,,stem,tfidf,noun,False,Random Forest,0.8828210970936664
+ag_news,False,,stem,tfidf,noun,False,Gradient Boosting,0.8015065780270559
+ag_news,False,,stem,tfidf,noun,False,AdaBoost,0.6553380397518036
+ag_news,False,,stem,tfidf,noun,True,Decision Tree,0.4663952907893345
+ag_news,False,,stem,tfidf,noun,True,Random Forest,0.49946951479253654
+ag_news,False,,stem,tfidf,noun,True,Gradient Boosting,0.4153114857476121
+ag_news,False,,stem,tfidf,noun,True,AdaBoost,0.2911048273778125
+ag_news,True,3.0,none,frequency,none,False,Decision Tree,0.5977567189389371
+ag_news,True,3.0,none,frequency,none,False,Random Forest,0.6860029026309721
+ag_news,True,3.0,none,frequency,none,False,Gradient Boosting,0.6620702760302922
+ag_news,True,3.0,none,frequency,none,False,AdaBoost,0.593530662023127
+ag_news,True,3.0,none,frequency,none,True,Decision Tree,0.46165868434043034
+ag_news,True,3.0,none,frequency,none,True,Random Forest,0.49909197707074204
+ag_news,True,3.0,none,frequency,none,True,Gradient Boosting,0.5187930053755633
+ag_news,True,3.0,none,frequency,none,True,AdaBoost,0.4809931539479017
+ag_news,True,3.0,none,frequency,noun,False,Decision Tree,0.45374896442842033
+ag_news,True,3.0,none,frequency,noun,False,Random Forest,0.5215821388362845
+ag_news,True,3.0,none,frequency,noun,False,Gradient Boosting,0.5137205765122774
+ag_news,True,3.0,none,frequency,noun,False,AdaBoost,0.4430683128009657
+ag_news,True,3.0,none,frequency,noun,True,Decision Tree,0.37190524061658564
+ag_news,True,3.0,none,frequency,noun,True,Random Forest,0.3976954433301762
+ag_news,True,3.0,none,frequency,noun,True,Gradient Boosting,0.3665189147123815
+ag_news,True,3.0,none,frequency,noun,True,AdaBoost,0.3189699952648865
+ag_news,True,3.0,none,tfidf,none,False,Decision Tree,0.6016011672400297
+ag_news,True,3.0,none,tfidf,none,False,Random Forest,0.6879336270796176
+ag_news,True,3.0,none,tfidf,none,False,Gradient Boosting,0.6969461311761587
+ag_news,True,3.0,none,tfidf,none,False,AdaBoost,0.6595245288590488
+ag_news,True,3.0,none,tfidf,none,True,Decision Tree,0.5135684737792292
+ag_news,True,3.0,none,tfidf,none,True,Random Forest,0.6042697140382222
+ag_news,True,3.0,none,tfidf,none,True,Gradient Boosting,0.6295198015010203
+ag_news,True,3.0,none,tfidf,none,True,AdaBoost,0.5958627961102412
+ag_news,True,3.0,none,tfidf,noun,False,Decision Tree,0.5240550502131678
+ag_news,True,3.0,none,tfidf,noun,False,Random Forest,0.6073444521713731
+ag_news,True,3.0,none,tfidf,noun,False,Gradient Boosting,0.6294544271051867
+ag_news,True,3.0,none,tfidf,noun,False,AdaBoost,0.5838376885116363
+ag_news,True,3.0,none,tfidf,noun,True,Decision Tree,0.3428653985837532
+ag_news,True,3.0,none,tfidf,noun,True,Random Forest,0.36513692767976524
+ag_news,True,3.0,none,tfidf,noun,True,Gradient Boosting,0.3252066867889418
+ag_news,True,3.0,none,tfidf,noun,True,AdaBoost,0.27650125415115845
+ag_news,True,3.0,lemma,frequency,none,False,Decision Tree,0.622147068653905
+ag_news,True,3.0,lemma,frequency,none,False,Random Forest,0.7055496150829268
+ag_news,True,3.0,lemma,frequency,none,False,Gradient Boosting,0.6895946785842971
+ag_news,True,3.0,lemma,frequency,none,False,AdaBoost,0.6057653021873894
+ag_news,True,3.0,lemma,frequency,none,True,Decision Tree,0.4786508614425018
+ag_news,True,3.0,lemma,frequency,none,True,Random Forest,0.5582438469278455
+ag_news,True,3.0,lemma,frequency,none,True,Gradient Boosting,0.5438011931368009
+ag_news,True,3.0,lemma,frequency,none,True,AdaBoost,0.49743250214504614
+ag_news,True,3.0,lemma,frequency,noun,False,Decision Tree,0.4720509768832725
+ag_news,True,3.0,lemma,frequency,noun,False,Random Forest,0.5454500758724344
+ag_news,True,3.0,lemma,frequency,noun,False,Gradient Boosting,0.5338410410878542
+ag_news,True,3.0,lemma,frequency,noun,False,AdaBoost,0.48694181808791936
+ag_news,True,3.0,lemma,frequency,noun,True,Decision Tree,0.3639594632800641
+ag_news,True,3.0,lemma,frequency,noun,True,Random Forest,0.3928836884762564
+ag_news,True,3.0,lemma,frequency,noun,True,Gradient Boosting,0.3570872574243964
+ag_news,True,3.0,lemma,frequency,noun,True,AdaBoost,0.32607221339541526
+ag_news,True,3.0,lemma,tfidf,none,False,Decision Tree,0.6074952274418784
+ag_news,True,3.0,lemma,tfidf,none,False,Random Forest,0.6958317857452364
+ag_news,True,3.0,lemma,tfidf,none,False,Gradient Boosting,0.7111313726721367
+ag_news,True,3.0,lemma,tfidf,none,False,AdaBoost,0.667135338731684
+ag_news,True,3.0,lemma,tfidf,none,True,Decision Tree,0.512825941279803
+ag_news,True,3.0,lemma,tfidf,none,True,Random Forest,0.6035373228469286
+ag_news,True,3.0,lemma,tfidf,none,True,Gradient Boosting,0.6262861037031039
+ag_news,True,3.0,lemma,tfidf,none,True,AdaBoost,0.593818729408096
+ag_news,True,3.0,lemma,tfidf,noun,False,Decision Tree,0.5403896937677525
+ag_news,True,3.0,lemma,tfidf,noun,False,Random Forest,0.6322275092866934
+ag_news,True,3.0,lemma,tfidf,noun,False,Gradient Boosting,0.6441499854492337
+ag_news,True,3.0,lemma,tfidf,noun,False,AdaBoost,0.6110008864234022
+ag_news,True,3.0,lemma,tfidf,noun,True,Decision Tree,0.34695882121604565
+ag_news,True,3.0,lemma,tfidf,noun,True,Random Forest,0.3743194853469606
+ag_news,True,3.0,lemma,tfidf,noun,True,Gradient Boosting,0.3457140227384059
+ag_news,True,3.0,lemma,tfidf,noun,True,AdaBoost,0.3037450743653676
+ag_news,True,3.0,stem,frequency,none,False,Decision Tree,0.5834408803449811
+ag_news,True,3.0,stem,frequency,none,False,Random Forest,0.6690963173646353
+ag_news,True,3.0,stem,frequency,none,False,Gradient Boosting,0.6674608303529708
+ag_news,True,3.0,stem,frequency,none,False,AdaBoost,0.6175547639619967
+ag_news,True,3.0,stem,frequency,none,True,Decision Tree,0.4612864914123165
+ag_news,True,3.0,stem,frequency,none,True,Random Forest,0.5409434343992774
+ag_news,True,3.0,stem,frequency,none,True,Gradient Boosting,0.5348981400170073
+ag_news,True,3.0,stem,frequency,none,True,AdaBoost,0.4987237241107025
+ag_news,True,3.0,stem,frequency,noun,False,Decision Tree,0.46982739931593603
+ag_news,True,3.0,stem,frequency,noun,False,Random Forest,0.5480267219052305
+ag_news,True,3.0,stem,frequency,noun,False,Gradient Boosting,0.5407737638139045
+ag_news,True,3.0,stem,frequency,noun,False,AdaBoost,0.49493492473658557
+ag_news,True,3.0,stem,frequency,noun,True,Decision Tree,0.363977724698076
+ag_news,True,3.0,stem,frequency,noun,True,Random Forest,0.39148062630903213
+ag_news,True,3.0,stem,frequency,noun,True,Gradient Boosting,0.34833198535847454
+ag_news,True,3.0,stem,frequency,noun,True,AdaBoost,0.33567806301281455
+ag_news,True,3.0,stem,tfidf,none,False,Decision Tree,0.6076312421958647
+ag_news,True,3.0,stem,tfidf,none,False,Random Forest,0.6900305522018251
+ag_news,True,3.0,stem,tfidf,none,False,Gradient Boosting,0.7080996789207071
+ag_news,True,3.0,stem,tfidf,none,False,AdaBoost,0.6901969352473197
+ag_news,True,3.0,stem,tfidf,none,True,Decision Tree,0.49426105592588304
+ag_news,True,3.0,stem,tfidf,none,True,Random Forest,0.6000573944868999
+ag_news,True,3.0,stem,tfidf,none,True,Gradient Boosting,0.6205823418494913
+ag_news,True,3.0,stem,tfidf,none,True,AdaBoost,0.5937201868193029
+ag_news,True,3.0,stem,tfidf,noun,False,Decision Tree,0.5469287763067496
+ag_news,True,3.0,stem,tfidf,noun,False,Random Forest,0.6327431068870456
+ag_news,True,3.0,stem,tfidf,noun,False,Gradient Boosting,0.6514737210694445
+ag_news,True,3.0,stem,tfidf,noun,False,AdaBoost,0.6197518513025236
+ag_news,True,3.0,stem,tfidf,noun,True,Decision Tree,0.35022306321887486
+ag_news,True,3.0,stem,tfidf,noun,True,Random Forest,0.37856780792047673
+ag_news,True,3.0,stem,tfidf,noun,True,Gradient Boosting,0.34209880258306924
+ag_news,True,3.0,stem,tfidf,noun,True,AdaBoost,0.306094917484459
+ag_news,True,10.0,none,frequency,none,False,Decision Tree,0.7051802437673464
+ag_news,True,10.0,none,frequency,none,False,Random Forest,0.7951580860757079
+ag_news,True,10.0,none,frequency,none,False,Gradient Boosting,0.7687889713152442
+ag_news,True,10.0,none,frequency,none,False,AdaBoost,0.7189850156055242
+ag_news,True,10.0,none,frequency,none,True,Decision Tree,0.5704133851419247
+ag_news,True,10.0,none,frequency,none,True,Random Forest,0.676948717652921
+ag_news,True,10.0,none,frequency,none,True,Gradient Boosting,0.6203117276560516
+ag_news,True,10.0,none,frequency,none,True,AdaBoost,0.5717787054139567
+ag_news,True,10.0,none,frequency,noun,False,Decision Tree,0.6999466651429854
+ag_news,True,10.0,none,frequency,noun,False,Random Forest,0.7967335634321729
+ag_news,True,10.0,none,frequency,noun,False,Gradient Boosting,0.7603940633406173
+ag_news,True,10.0,none,frequency,noun,False,AdaBoost,0.7142276495285196
+ag_news,True,10.0,none,frequency,noun,True,Decision Tree,0.4119102878626901
+ag_news,True,10.0,none,frequency,noun,True,Random Forest,0.4581959116762201
+ag_news,True,10.0,none,frequency,noun,True,Gradient Boosting,0.41107873759516095
+ag_news,True,10.0,none,frequency,noun,True,AdaBoost,0.3684377136325063
+ag_news,True,10.0,none,tfidf,none,False,Decision Tree,0.7569776829256469
+ag_news,True,10.0,none,tfidf,none,False,Random Forest,0.8380908874183838
+ag_news,True,10.0,none,tfidf,none,False,Gradient Boosting,0.817302518773619
+ag_news,True,10.0,none,tfidf,none,False,AdaBoost,0.7787474812711122
+ag_news,True,10.0,none,tfidf,none,True,Decision Tree,0.59242362272549
+ag_news,True,10.0,none,tfidf,none,True,Random Forest,0.7098349738646461
+ag_news,True,10.0,none,tfidf,none,True,Gradient Boosting,0.6812584002317863
+ag_news,True,10.0,none,tfidf,none,True,AdaBoost,0.6471272337542788
+ag_news,True,10.0,none,tfidf,noun,False,Decision Tree,0.7192831224828447
+ag_news,True,10.0,none,tfidf,noun,False,Random Forest,0.8192077586481097
+ag_news,True,10.0,none,tfidf,noun,False,Gradient Boosting,0.7990181770153171
+ag_news,True,10.0,none,tfidf,noun,False,AdaBoost,0.7664587129279252
+ag_news,True,10.0,none,tfidf,noun,True,Decision Tree,0.39041903392446387
+ag_news,True,10.0,none,tfidf,noun,True,Random Forest,0.4404342886178644
+ag_news,True,10.0,none,tfidf,noun,True,Gradient Boosting,0.396094130729287
+ag_news,True,10.0,none,tfidf,noun,True,AdaBoost,0.36057236172072915
+ag_news,True,10.0,lemma,frequency,none,False,Decision Tree,0.7111048657551561
+ag_news,True,10.0,lemma,frequency,none,False,Random Forest,0.8011881584694296
+ag_news,True,10.0,lemma,frequency,none,False,Gradient Boosting,0.7788102317780983
+ag_news,True,10.0,lemma,frequency,none,False,AdaBoost,0.7331706841188383
+ag_news,True,10.0,lemma,frequency,none,True,Decision Tree,0.5652291122826856
+ag_news,True,10.0,lemma,frequency,none,True,Random Forest,0.6754995977734909
+ag_news,True,10.0,lemma,frequency,none,True,Gradient Boosting,0.6182623474029842
+ag_news,True,10.0,lemma,frequency,none,True,AdaBoost,0.5381746122494571
+ag_news,True,10.0,lemma,frequency,noun,False,Decision Tree,0.6983435700372586
+ag_news,True,10.0,lemma,frequency,noun,False,Random Forest,0.793875044311743
+ag_news,True,10.0,lemma,frequency,noun,False,Gradient Boosting,0.7626647209342532
+ag_news,True,10.0,lemma,frequency,noun,False,AdaBoost,0.7113146939674285
+ag_news,True,10.0,lemma,frequency,noun,True,Decision Tree,0.4054133297169126
+ag_news,True,10.0,lemma,frequency,noun,True,Random Forest,0.453386680625846
+ag_news,True,10.0,lemma,frequency,noun,True,Gradient Boosting,0.41498660036856605
+ag_news,True,10.0,lemma,frequency,noun,True,AdaBoost,0.36905628413251484
+ag_news,True,10.0,lemma,tfidf,none,False,Decision Tree,0.7609526799139656
+ag_news,True,10.0,lemma,tfidf,none,False,Random Forest,0.8400810615323588
+ag_news,True,10.0,lemma,tfidf,none,False,Gradient Boosting,0.8208121229245322
+ag_news,True,10.0,lemma,tfidf,none,False,AdaBoost,0.7918512392660826
+ag_news,True,10.0,lemma,tfidf,none,True,Decision Tree,0.5978935520792225
+ag_news,True,10.0,lemma,tfidf,none,True,Random Forest,0.7133575864585623
+ag_news,True,10.0,lemma,tfidf,none,True,Gradient Boosting,0.6840491159179634
+ag_news,True,10.0,lemma,tfidf,none,True,AdaBoost,0.6473203974996787
+ag_news,True,10.0,lemma,tfidf,noun,False,Decision Tree,0.7267951295751452
+ag_news,True,10.0,lemma,tfidf,noun,False,Random Forest,0.8167358712695576
+ag_news,True,10.0,lemma,tfidf,noun,False,Gradient Boosting,0.8027327283833943
+ag_news,True,10.0,lemma,tfidf,noun,False,AdaBoost,0.7577173686482397
+ag_news,True,10.0,lemma,tfidf,noun,True,Decision Tree,0.38965457989423946
+ag_news,True,10.0,lemma,tfidf,noun,True,Random Forest,0.43189676626269874
+ag_news,True,10.0,lemma,tfidf,noun,True,Gradient Boosting,0.4029472831863085
+ag_news,True,10.0,lemma,tfidf,noun,True,AdaBoost,0.36115440084450595
+ag_news,True,10.0,stem,frequency,none,False,Decision Tree,0.7030009308937513
+ag_news,True,10.0,stem,frequency,none,False,Random Forest,0.7951460783117223
+ag_news,True,10.0,stem,frequency,none,False,Gradient Boosting,0.770758076723555
+ag_news,True,10.0,stem,frequency,none,False,AdaBoost,0.7275327919521997
+ag_news,True,10.0,stem,frequency,none,True,Decision Tree,0.5569158106132005
+ag_news,True,10.0,stem,frequency,none,True,Random Forest,0.6705208088159875
+ag_news,True,10.0,stem,frequency,none,True,Gradient Boosting,0.6229974140650334
+ag_news,True,10.0,stem,frequency,none,True,AdaBoost,0.5752010182878279
+ag_news,True,10.0,stem,frequency,noun,False,Decision Tree,0.7022706288639593
+ag_news,True,10.0,stem,frequency,noun,False,Random Forest,0.7954382577849164
+ag_news,True,10.0,stem,frequency,noun,False,Gradient Boosting,0.7674326479054399
+ag_news,True,10.0,stem,frequency,noun,False,AdaBoost,0.7175953350923292
+ag_news,True,10.0,stem,frequency,noun,True,Decision Tree,0.4072266356622669
+ag_news,True,10.0,stem,frequency,noun,True,Random Forest,0.4547967979133704
+ag_news,True,10.0,stem,frequency,noun,True,Gradient Boosting,0.40951430021566865
+ag_news,True,10.0,stem,frequency,noun,True,AdaBoost,0.3656699797224278
+ag_news,True,10.0,stem,tfidf,none,False,Decision Tree,0.7524753113693611
+ag_news,True,10.0,stem,tfidf,none,False,Random Forest,0.8319084317333577
+ag_news,True,10.0,stem,tfidf,none,False,Gradient Boosting,0.8258930269341513
+ag_news,True,10.0,stem,tfidf,none,False,AdaBoost,0.7949344582906697
+ag_news,True,10.0,stem,tfidf,none,True,Decision Tree,0.5925943999590579
+ag_news,True,10.0,stem,tfidf,none,True,Random Forest,0.7017975842196202
+ag_news,True,10.0,stem,tfidf,none,True,Gradient Boosting,0.6836936084273635
+ag_news,True,10.0,stem,tfidf,none,True,AdaBoost,0.6480529173742957
+ag_news,True,10.0,stem,tfidf,noun,False,Decision Tree,0.7246199699962654
+ag_news,True,10.0,stem,tfidf,noun,False,Random Forest,0.8175115115307443
+ag_news,True,10.0,stem,tfidf,noun,False,Gradient Boosting,0.8065660387408962
+ag_news,True,10.0,stem,tfidf,noun,False,AdaBoost,0.7591398337528874
+ag_news,True,10.0,stem,tfidf,noun,True,Decision Tree,0.38514248557308983
+ag_news,True,10.0,stem,tfidf,noun,True,Random Forest,0.4372395930045085
+ag_news,True,10.0,stem,tfidf,noun,True,Gradient Boosting,0.4017356441082354
+ag_news,True,10.0,stem,tfidf,noun,True,AdaBoost,0.3545715424880801
+ag_news,True,50.0,none,frequency,none,False,Decision Tree,0.7219595836826731
+ag_news,True,50.0,none,frequency,none,False,Random Forest,0.8329255578787191
+ag_news,True,50.0,none,frequency,none,False,Gradient Boosting,0.816901935894566
+ag_news,True,50.0,none,frequency,none,False,AdaBoost,0.765635841979659
+ag_news,True,50.0,none,frequency,none,True,Decision Tree,0.5959765923439452
+ag_news,True,50.0,none,frequency,none,True,Random Forest,0.7240379748610226
+ag_news,True,50.0,none,frequency,none,True,Gradient Boosting,0.6895961063786409
+ag_news,True,50.0,none,frequency,none,True,AdaBoost,0.6399528154457433
+ag_news,True,50.0,none,frequency,noun,False,Decision Tree,0.716862978307658
+ag_news,True,50.0,none,frequency,noun,False,Random Forest,0.8221084991465002
+ag_news,True,50.0,none,frequency,noun,False,Gradient Boosting,0.7944746668189102
+ag_news,True,50.0,none,frequency,noun,False,AdaBoost,0.7320290617481577
+ag_news,True,50.0,none,frequency,noun,True,Decision Tree,0.4310888077334233
+ag_news,True,50.0,none,frequency,noun,True,Random Forest,0.4873788737142642
+ag_news,True,50.0,none,frequency,noun,True,Gradient Boosting,0.46210524979832907
+ag_news,True,50.0,none,frequency,noun,True,AdaBoost,0.4389404229215472
+ag_news,True,50.0,none,tfidf,none,False,Decision Tree,0.7754718367898343
+ag_news,True,50.0,none,tfidf,none,False,Random Forest,0.8662362668574403
+ag_news,True,50.0,none,tfidf,none,False,Gradient Boosting,0.8565137085582064
+ag_news,True,50.0,none,tfidf,none,False,AdaBoost,0.8026639770590489
+ag_news,True,50.0,none,tfidf,none,True,Decision Tree,0.6178905221597609
+ag_news,True,50.0,none,tfidf,none,True,Random Forest,0.7406649457628179
+ag_news,True,50.0,none,tfidf,none,True,Gradient Boosting,0.7223557301182968
+ag_news,True,50.0,none,tfidf,none,True,AdaBoost,0.6860020991230394
+ag_news,True,50.0,none,tfidf,noun,False,Decision Tree,0.7445646470268201
+ag_news,True,50.0,none,tfidf,noun,False,Random Forest,0.8434197754517411
+ag_news,True,50.0,none,tfidf,noun,False,Gradient Boosting,0.8256974114778522
+ag_news,True,50.0,none,tfidf,noun,False,AdaBoost,0.7787684598927432
+ag_news,True,50.0,none,tfidf,noun,True,Decision Tree,0.41740265982619695
+ag_news,True,50.0,none,tfidf,noun,True,Random Forest,0.4830606438262577
+ag_news,True,50.0,none,tfidf,noun,True,Gradient Boosting,0.4636945333646078
+ag_news,True,50.0,none,tfidf,noun,True,AdaBoost,0.4321245690310511
+ag_news,True,50.0,lemma,frequency,none,False,Decision Tree,0.7273217560248466
+ag_news,True,50.0,lemma,frequency,none,False,Random Forest,0.8320198945963477
+ag_news,True,50.0,lemma,frequency,none,False,Gradient Boosting,0.8148706985500902
+ag_news,True,50.0,lemma,frequency,none,False,AdaBoost,0.7724920379397521
+ag_news,True,50.0,lemma,frequency,none,True,Decision Tree,0.5999507843170067
+ag_news,True,50.0,lemma,frequency,none,True,Random Forest,0.7235198597351773
+ag_news,True,50.0,lemma,frequency,none,True,Gradient Boosting,0.6893335315651047
+ag_news,True,50.0,lemma,frequency,none,True,AdaBoost,0.6473371869276061
+ag_news,True,50.0,lemma,frequency,noun,False,Decision Tree,0.7153741169693113
+ag_news,True,50.0,lemma,frequency,noun,False,Random Forest,0.8187471800828691
+ag_news,True,50.0,lemma,frequency,noun,False,Gradient Boosting,0.791135142158202
+ag_news,True,50.0,lemma,frequency,noun,False,AdaBoost,0.7328110919897957
+ag_news,True,50.0,lemma,frequency,noun,True,Decision Tree,0.4246833367986601
+ag_news,True,50.0,lemma,frequency,noun,True,Random Forest,0.47840415991827756
+ag_news,True,50.0,lemma,frequency,noun,True,Gradient Boosting,0.4524749744761139
+ag_news,True,50.0,lemma,frequency,noun,True,AdaBoost,0.4257074933992119
+ag_news,True,50.0,lemma,tfidf,none,False,Decision Tree,0.780653904160759
+ag_news,True,50.0,lemma,tfidf,none,False,Random Forest,0.8665974440338081
+ag_news,True,50.0,lemma,tfidf,none,False,Gradient Boosting,0.853056503936402
+ag_news,True,50.0,lemma,tfidf,none,False,AdaBoost,0.8130546729504705
+ag_news,True,50.0,lemma,tfidf,none,True,Decision Tree,0.6174631813812497
+ag_news,True,50.0,lemma,tfidf,none,True,Random Forest,0.7403014514132961
+ag_news,True,50.0,lemma,tfidf,none,True,Gradient Boosting,0.7208091194343513
+ag_news,True,50.0,lemma,tfidf,none,True,AdaBoost,0.6837306756950644
+ag_news,True,50.0,lemma,tfidf,noun,False,Decision Tree,0.7384041310647813
+ag_news,True,50.0,lemma,tfidf,noun,False,Random Forest,0.8385435383098018
+ag_news,True,50.0,lemma,tfidf,noun,False,Gradient Boosting,0.8216125986240432
+ag_news,True,50.0,lemma,tfidf,noun,False,AdaBoost,0.7737974529979141
+ag_news,True,50.0,lemma,tfidf,noun,True,Decision Tree,0.4191994028898659
+ag_news,True,50.0,lemma,tfidf,noun,True,Random Forest,0.4719150466709765
+ag_news,True,50.0,lemma,tfidf,noun,True,Gradient Boosting,0.45522364354101164
+ag_news,True,50.0,lemma,tfidf,noun,True,AdaBoost,0.4208578113056155
+ag_news,True,50.0,stem,frequency,none,False,Decision Tree,0.7213386572010643
+ag_news,True,50.0,stem,frequency,none,False,Random Forest,0.832328089336683
+ag_news,True,50.0,stem,frequency,none,False,Gradient Boosting,0.8180745819748445
+ag_news,True,50.0,stem,frequency,none,False,AdaBoost,0.7603561456780431
+ag_news,True,50.0,stem,frequency,none,True,Decision Tree,0.5836056675621921
+ag_news,True,50.0,stem,frequency,none,True,Random Forest,0.7061024177292772
+ag_news,True,50.0,stem,frequency,none,True,Gradient Boosting,0.6784749053222433
+ag_news,True,50.0,stem,frequency,none,True,AdaBoost,0.6332316871714715
+ag_news,True,50.0,stem,frequency,noun,False,Decision Tree,0.7147005995708365
+ag_news,True,50.0,stem,frequency,noun,False,Random Forest,0.8167809561239341
+ag_news,True,50.0,stem,frequency,noun,False,Gradient Boosting,0.7921112878163618
+ag_news,True,50.0,stem,frequency,noun,False,AdaBoost,0.7330574144365112
+ag_news,True,50.0,stem,frequency,noun,True,Decision Tree,0.4231846276582488
+ag_news,True,50.0,stem,frequency,noun,True,Random Forest,0.4756609109179928
+ag_news,True,50.0,stem,frequency,noun,True,Gradient Boosting,0.45032895926112415
+ag_news,True,50.0,stem,frequency,noun,True,AdaBoost,0.42483901113913636
+ag_news,True,50.0,stem,tfidf,none,False,Decision Tree,0.7748255988051954
+ag_news,True,50.0,stem,tfidf,none,False,Random Forest,0.8641487879768858
+ag_news,True,50.0,stem,tfidf,none,False,Gradient Boosting,0.8552769620677398
+ag_news,True,50.0,stem,tfidf,none,False,AdaBoost,0.8078851081920374
+ag_news,True,50.0,stem,tfidf,none,True,Decision Tree,0.607732013036424
+ag_news,True,50.0,stem,tfidf,none,True,Random Forest,0.73016826505738
+ag_news,True,50.0,stem,tfidf,none,True,Gradient Boosting,0.7144495606808459
+ag_news,True,50.0,stem,tfidf,none,True,AdaBoost,0.6732739073025992
+ag_news,True,50.0,stem,tfidf,noun,False,Decision Tree,0.7438881518921319
+ag_news,True,50.0,stem,tfidf,noun,False,Random Forest,0.8406051804972221
+ag_news,True,50.0,stem,tfidf,noun,False,Gradient Boosting,0.8228364412654416
+ag_news,True,50.0,stem,tfidf,noun,False,AdaBoost,0.7659094049697979
+ag_news,True,50.0,stem,tfidf,noun,True,Decision Tree,0.4111323449099367
+ag_news,True,50.0,stem,tfidf,noun,True,Random Forest,0.47492862651286005
+ag_news,True,50.0,stem,tfidf,noun,True,Gradient Boosting,0.45061180506875714
+ag_news,True,50.0,stem,tfidf,noun,True,AdaBoost,0.43001484338157214
+imdb,False,,none,frequency,none,False,Decision Tree,0.726426547956293
+imdb,False,,none,frequency,none,False,Random Forest,0.8541162227602905
+imdb,False,,none,frequency,none,False,Gradient Boosting,0.8146883005977796
+imdb,False,,none,frequency,none,False,AdaBoost,0.8050485436893204
+imdb,False,,none,frequency,none,True,Decision Tree,0.6968964127367997
+imdb,False,,none,frequency,none,True,Random Forest,0.8382664915648045
+imdb,False,,none,frequency,none,True,Gradient Boosting,0.7929490766648013
+imdb,False,,none,frequency,none,True,AdaBoost,0.780404766408171
+imdb,False,,none,frequency,noun,False,Decision Tree,0.6332928802588996
+imdb,False,,none,frequency,noun,False,Random Forest,0.7668097281831188
+imdb,False,,none,frequency,noun,False,Gradient Boosting,0.7289128615270157
+imdb,False,,none,frequency,noun,False,AdaBoost,0.718167187352078
+imdb,False,,none,frequency,noun,True,Decision Tree,0.6232142857142857
+imdb,False,,none,frequency,noun,True,Random Forest,0.7313909399321493
+imdb,False,,none,frequency,noun,True,Gradient Boosting,0.7049808429118773
+imdb,False,,none,frequency,noun,True,AdaBoost,0.6909025140170013
+imdb,False,,none,tfidf,none,False,Decision Tree,0.7222166246851386
+imdb,False,,none,tfidf,none,False,Random Forest,0.8541497152156224
+imdb,False,,none,tfidf,none,False,Gradient Boosting,0.813691096994406
+imdb,False,,none,tfidf,none,False,AdaBoost,0.8063737324963786
+imdb,False,,none,tfidf,none,True,Decision Tree,0.6866901054746358
+imdb,False,,none,tfidf,none,True,Random Forest,0.8381919756221432
+imdb,False,,none,tfidf,none,True,Gradient Boosting,0.7887955182072829
+imdb,False,,none,tfidf,none,True,AdaBoost,0.7806420699568759
+imdb,False,,none,tfidf,noun,False,Decision Tree,0.6360807147876719
+imdb,False,,none,tfidf,noun,False,Random Forest,0.763192950097346
+imdb,False,,none,tfidf,noun,False,Gradient Boosting,0.7312168326971418
+imdb,False,,none,tfidf,noun,False,AdaBoost,0.7207070227121544
+imdb,False,,none,tfidf,noun,True,Decision Tree,0.621543950054504
+imdb,False,,none,tfidf,noun,True,Random Forest,0.7247873633049817
+imdb,False,,none,tfidf,noun,True,Gradient Boosting,0.7012775210655069
+imdb,False,,none,tfidf,noun,True,AdaBoost,0.6895789182714457
+imdb,False,,lemma,frequency,none,False,Decision Tree,0.730722891566265
+imdb,False,,lemma,frequency,none,False,Random Forest,0.8533494266747134
+imdb,False,,lemma,frequency,none,False,Gradient Boosting,0.8128372621414371
+imdb,False,,lemma,frequency,none,False,AdaBoost,0.8038491446345256
+imdb,False,,lemma,frequency,none,True,Decision Tree,0.6930832829199436
+imdb,False,,lemma,frequency,none,True,Random Forest,0.8327122570248766
+imdb,False,,lemma,frequency,none,True,Gradient Boosting,0.7917444901008591
+imdb,False,,lemma,frequency,none,True,AdaBoost,0.7800188501413761
+imdb,False,,lemma,frequency,noun,False,Decision Tree,0.6352467270896274
+imdb,False,,lemma,frequency,noun,False,Random Forest,0.760586319218241
+imdb,False,,lemma,frequency,noun,False,Gradient Boosting,0.7260106931807523
+imdb,False,,lemma,frequency,noun,False,AdaBoost,0.7177442324124181
+imdb,False,,lemma,frequency,noun,True,Decision Tree,0.6146633416458853
+imdb,False,,lemma,frequency,noun,True,Random Forest,0.7170302181308785
+imdb,False,,lemma,frequency,noun,True,Gradient Boosting,0.7001076812634601
+imdb,False,,lemma,frequency,noun,True,AdaBoost,0.6942549371633753
+imdb,False,,lemma,tfidf,none,False,Decision Tree,0.7173368093853404
+imdb,False,,lemma,tfidf,none,False,Random Forest,0.8506704591629419
+imdb,False,,lemma,tfidf,none,False,Gradient Boosting,0.8184673964778677
+imdb,False,,lemma,tfidf,none,False,AdaBoost,0.8071662492775958
+imdb,False,,lemma,tfidf,none,True,Decision Tree,0.6858812859014412
+imdb,False,,lemma,tfidf,none,True,Random Forest,0.8312189180960113
+imdb,False,,lemma,tfidf,none,True,Gradient Boosting,0.7929713057295075
+imdb,False,,lemma,tfidf,none,True,AdaBoost,0.7770651861778501
+imdb,False,,lemma,tfidf,noun,False,Decision Tree,0.6319080274304155
+imdb,False,,lemma,tfidf,noun,False,Random Forest,0.7582812019280074
+imdb,False,,lemma,tfidf,noun,False,Gradient Boosting,0.7268644147094601
+imdb,False,,lemma,tfidf,noun,False,AdaBoost,0.7156384505021521
+imdb,False,,lemma,tfidf,noun,True,Decision Tree,0.604369414101291
+imdb,False,,lemma,tfidf,noun,True,Random Forest,0.7109797125089203
+imdb,False,,lemma,tfidf,noun,True,Gradient Boosting,0.6961165927401104
+imdb,False,,lemma,tfidf,noun,True,AdaBoost,0.6895489947473283
+imdb,False,,stem,frequency,none,False,Decision Tree,0.7227702838735656
+imdb,False,,stem,frequency,none,False,Random Forest,0.852935243090579
+imdb,False,,stem,frequency,none,False,Gradient Boosting,0.8195660449181575
+imdb,False,,stem,frequency,none,False,AdaBoost,0.8105007292173068
+imdb,False,,stem,frequency,none,True,Decision Tree,0.6887096774193548
+imdb,False,,stem,frequency,none,True,Random Forest,0.8325108268707826
+imdb,False,,stem,frequency,none,True,Gradient Boosting,0.7947057166995213
+imdb,False,,stem,frequency,none,True,AdaBoost,0.7856262444296956
+imdb,False,,stem,frequency,noun,False,Decision Tree,0.6304128902316214
+imdb,False,,stem,frequency,noun,False,Random Forest,0.7591494581885095
+imdb,False,,stem,frequency,noun,False,Gradient Boosting,0.7266079129945622
+imdb,False,,stem,frequency,noun,False,AdaBoost,0.7161904761904762
+imdb,False,,stem,frequency,noun,True,Decision Tree,0.6179898396254607
+imdb,False,,stem,frequency,noun,True,Random Forest,0.7195330582670826
+imdb,False,,stem,frequency,noun,True,Gradient Boosting,0.7022325831614812
+imdb,False,,stem,frequency,noun,True,AdaBoost,0.6956833243775747
+imdb,False,,stem,tfidf,none,False,Decision Tree,0.7141993957703927
+imdb,False,,stem,tfidf,none,False,Random Forest,0.8516037352821763
+imdb,False,,stem,tfidf,none,False,Gradient Boosting,0.8170592705167173
+imdb,False,,stem,tfidf,none,False,AdaBoost,0.8118238021638331
+imdb,False,,stem,tfidf,none,True,Decision Tree,0.6817630408410837
+imdb,False,,stem,tfidf,none,True,Random Forest,0.8264664095798661
+imdb,False,,stem,tfidf,none,True,Gradient Boosting,0.7926829268292683
+imdb,False,,stem,tfidf,none,True,AdaBoost,0.7828331103039572
+imdb,False,,stem,tfidf,noun,False,Decision Tree,0.6304961678096006
+imdb,False,,stem,tfidf,noun,False,Random Forest,0.7571326311483791
+imdb,False,,stem,tfidf,noun,False,Gradient Boosting,0.7279026217228465
+imdb,False,,stem,tfidf,noun,False,AdaBoost,0.7123893805309734
+imdb,False,,stem,tfidf,noun,True,Decision Tree,0.6094897756601152
+imdb,False,,stem,tfidf,noun,True,Random Forest,0.7181187820319566
+imdb,False,,stem,tfidf,noun,True,Gradient Boosting,0.7000271468645372
+imdb,False,,stem,tfidf,noun,True,AdaBoost,0.692986445920131
+imdb,True,3.0,none,frequency,none,False,Decision Tree,0.5419095477386935
+imdb,True,3.0,none,frequency,none,False,Random Forest,0.5533693546742787
+imdb,True,3.0,none,frequency,none,False,Gradient Boosting,0.5696661118182709
+imdb,True,3.0,none,frequency,none,False,AdaBoost,0.5651441593183394
+imdb,True,3.0,none,frequency,none,True,Decision Tree,0.5810987245154163
+imdb,True,3.0,none,frequency,none,True,Random Forest,0.661118909163826
+imdb,True,3.0,none,frequency,none,True,Gradient Boosting,0.6757548217711804
+imdb,True,3.0,none,frequency,none,True,AdaBoost,0.6678130689864454
+imdb,True,3.0,none,frequency,noun,False,Decision Tree,0.5270808442851453
+imdb,True,3.0,none,frequency,noun,False,Random Forest,0.5466882722300993
+imdb,True,3.0,none,frequency,noun,False,Gradient Boosting,0.5817221541073281
+imdb,True,3.0,none,frequency,noun,False,AdaBoost,0.5560682046138415
+imdb,True,3.0,none,frequency,noun,True,Decision Tree,0.5370133070478068
+imdb,True,3.0,none,frequency,noun,True,Random Forest,0.5390397915204972
+imdb,True,3.0,none,frequency,noun,True,Gradient Boosting,0.5829010566762728
+imdb,True,3.0,none,frequency,noun,True,AdaBoost,0.5747857074063373
+imdb,True,3.0,none,tfidf,none,False,Decision Tree,0.539190006044731
+imdb,True,3.0,none,tfidf,none,False,Random Forest,0.5704333572379879
+imdb,True,3.0,none,tfidf,none,False,Gradient Boosting,0.5882108327268947
+imdb,True,3.0,none,tfidf,none,False,AdaBoost,0.5877256317689531
+imdb,True,3.0,none,tfidf,none,True,Decision Tree,0.7205218263923733
+imdb,True,3.0,none,tfidf,none,True,Random Forest,0.7800746193405264
+imdb,True,3.0,none,tfidf,none,True,Gradient Boosting,0.798756642935927
+imdb,True,3.0,none,tfidf,none,True,AdaBoost,0.8026432587040142
+imdb,True,3.0,none,tfidf,noun,False,Decision Tree,0.5286521388216303
+imdb,True,3.0,none,tfidf,noun,False,Random Forest,0.5338711345537284
+imdb,True,3.0,none,tfidf,noun,False,Gradient Boosting,0.5670230263157895
+imdb,True,3.0,none,tfidf,noun,False,AdaBoost,0.5752853598014889
+imdb,True,3.0,none,tfidf,noun,True,Decision Tree,0.5393369619000494
+imdb,True,3.0,none,tfidf,noun,True,Random Forest,0.5968407284435053
+imdb,True,3.0,none,tfidf,noun,True,Gradient Boosting,0.621676891615542
+imdb,True,3.0,none,tfidf,noun,True,AdaBoost,0.604573885848319
+imdb,True,3.0,lemma,frequency,none,False,Decision Tree,0.5460116433459299
+imdb,True,3.0,lemma,frequency,none,False,Random Forest,0.5737452530021554
+imdb,True,3.0,lemma,frequency,none,False,Gradient Boosting,0.5914710110206037
+imdb,True,3.0,lemma,frequency,none,False,AdaBoost,0.5954875861417918
+imdb,True,3.0,lemma,frequency,none,True,Decision Tree,0.5757974683544304
+imdb,True,3.0,lemma,frequency,none,True,Random Forest,0.6453191923312258
+imdb,True,3.0,lemma,frequency,none,True,Gradient Boosting,0.6676244227809133
+imdb,True,3.0,lemma,frequency,none,True,AdaBoost,0.6623510069872586
+imdb,True,3.0,lemma,frequency,noun,False,Decision Tree,0.5288394021466546
+imdb,True,3.0,lemma,frequency,noun,False,Random Forest,0.5599757673667205
+imdb,True,3.0,lemma,frequency,noun,False,Gradient Boosting,0.574934268185802
+imdb,True,3.0,lemma,frequency,noun,False,AdaBoost,0.5791690599272449
+imdb,True,3.0,lemma,frequency,noun,True,Decision Tree,0.5279046673286991
+imdb,True,3.0,lemma,frequency,noun,True,Random Forest,0.5414864728955043
+imdb,True,3.0,lemma,frequency,noun,True,Gradient Boosting,0.5723652492527239
+imdb,True,3.0,lemma,frequency,noun,True,AdaBoost,0.5583746283448959
+imdb,True,3.0,lemma,tfidf,none,False,Decision Tree,0.5336688475088073
+imdb,True,3.0,lemma,tfidf,none,False,Random Forest,0.5528150692059528
+imdb,True,3.0,lemma,tfidf,none,False,Gradient Boosting,0.5600695198783402
+imdb,True,3.0,lemma,tfidf,none,False,AdaBoost,0.5794123690158208
+imdb,True,3.0,lemma,tfidf,none,True,Decision Tree,0.7147291478922599
+imdb,True,3.0,lemma,tfidf,none,True,Random Forest,0.7855562261114464
+imdb,True,3.0,lemma,tfidf,none,True,Gradient Boosting,0.7921829354286289
+imdb,True,3.0,lemma,tfidf,none,True,AdaBoost,0.7930421031824472
+imdb,True,3.0,lemma,tfidf,noun,False,Decision Tree,0.5186369541321075
+imdb,True,3.0,lemma,tfidf,noun,False,Random Forest,0.5451779738363249
+imdb,True,3.0,lemma,tfidf,noun,False,Gradient Boosting,0.5649636531176411
+imdb,True,3.0,lemma,tfidf,noun,False,AdaBoost,0.5712297445074063
+imdb,True,3.0,lemma,tfidf,noun,True,Decision Tree,0.5384307445956765
+imdb,True,3.0,lemma,tfidf,noun,True,Random Forest,0.574895482818395
+imdb,True,3.0,lemma,tfidf,noun,True,Gradient Boosting,0.6037252389868927
+imdb,True,3.0,lemma,tfidf,noun,True,AdaBoost,0.5909319392781743
+imdb,True,3.0,stem,frequency,none,False,Decision Tree,0.5421722996690402
+imdb,True,3.0,stem,frequency,none,False,Random Forest,0.5621235324144972
+imdb,True,3.0,stem,frequency,none,False,Gradient Boosting,0.584573748308525
+imdb,True,3.0,stem,frequency,none,False,AdaBoost,0.5785686503306107
+imdb,True,3.0,stem,frequency,none,True,Decision Tree,0.5889558232931726
+imdb,True,3.0,stem,frequency,none,True,Random Forest,0.6501472529704478
+imdb,True,3.0,stem,frequency,none,True,Gradient Boosting,0.6735332727456327
+imdb,True,3.0,stem,frequency,none,True,AdaBoost,0.6653082017320427
+imdb,True,3.0,stem,frequency,noun,False,Decision Tree,0.53218712514994
+imdb,True,3.0,stem,frequency,noun,False,Random Forest,0.5582939342118499
+imdb,True,3.0,stem,frequency,noun,False,Gradient Boosting,0.5723264263969361
+imdb,True,3.0,stem,frequency,noun,False,AdaBoost,0.5771144278606966
+imdb,True,3.0,stem,frequency,noun,True,Decision Tree,0.5341700166683008
+imdb,True,3.0,stem,frequency,noun,True,Random Forest,0.5523620089507708
+imdb,True,3.0,stem,frequency,noun,True,Gradient Boosting,0.5806828129559382
+imdb,True,3.0,stem,frequency,noun,True,AdaBoost,0.5643841086045118
+imdb,True,3.0,stem,tfidf,none,False,Decision Tree,0.5274062154279393
+imdb,True,3.0,stem,tfidf,none,False,Random Forest,0.5553505535055351
+imdb,True,3.0,stem,tfidf,none,False,Gradient Boosting,0.5684187896377513
+imdb,True,3.0,stem,tfidf,none,False,AdaBoost,0.5787003233545426
+imdb,True,3.0,stem,tfidf,none,True,Decision Tree,0.706918994693101
+imdb,True,3.0,stem,tfidf,none,True,Random Forest,0.7751389590702374
+imdb,True,3.0,stem,tfidf,none,True,Gradient Boosting,0.7843453701835787
+imdb,True,3.0,stem,tfidf,none,True,AdaBoost,0.7872063968015992
+imdb,True,3.0,stem,tfidf,noun,False,Decision Tree,0.5250849490305817
+imdb,True,3.0,stem,tfidf,noun,False,Random Forest,0.5322514379622021
+imdb,True,3.0,stem,tfidf,noun,False,Gradient Boosting,0.5620618556701031
+imdb,True,3.0,stem,tfidf,noun,False,AdaBoost,0.5788694880142053
+imdb,True,3.0,stem,tfidf,noun,True,Decision Tree,0.5347125522180227
+imdb,True,3.0,stem,tfidf,noun,True,Random Forest,0.5609116579265833
+imdb,True,3.0,stem,tfidf,noun,True,Gradient Boosting,0.6032290615539859
+imdb,True,3.0,stem,tfidf,noun,True,AdaBoost,0.6088
+imdb,True,10.0,none,frequency,none,False,Decision Tree,0.65290088638195
+imdb,True,10.0,none,frequency,none,False,Random Forest,0.7434502216848046
+imdb,True,10.0,none,frequency,none,False,Gradient Boosting,0.7469335688352468
+imdb,True,10.0,none,frequency,none,False,AdaBoost,0.7292589312075584
+imdb,True,10.0,none,frequency,none,True,Decision Tree,0.6295472918350848
+imdb,True,10.0,none,frequency,none,True,Random Forest,0.7344937975190076
+imdb,True,10.0,none,frequency,none,True,Gradient Boosting,0.7376252355917071
+imdb,True,10.0,none,frequency,none,True,AdaBoost,0.7168825951591845
+imdb,True,10.0,none,frequency,noun,False,Decision Tree,0.5548116318576997
+imdb,True,10.0,none,frequency,noun,False,Random Forest,0.5966680378445084
+imdb,True,10.0,none,frequency,noun,False,Gradient Boosting,0.6001835423676966
+imdb,True,10.0,none,frequency,noun,False,AdaBoost,0.5926680244399185
+imdb,True,10.0,none,frequency,noun,True,Decision Tree,0.5604994549598652
+imdb,True,10.0,none,frequency,noun,True,Random Forest,0.6095218841605176
+imdb,True,10.0,none,frequency,noun,True,Gradient Boosting,0.6275200626345665
+imdb,True,10.0,none,frequency,noun,True,AdaBoost,0.6140574453484953
+imdb,True,10.0,none,tfidf,none,False,Decision Tree,0.7299314239612748
+imdb,True,10.0,none,tfidf,none,False,Random Forest,0.8202774174234109
+imdb,True,10.0,none,tfidf,none,False,Gradient Boosting,0.819668880737583
+imdb,True,10.0,none,tfidf,none,False,AdaBoost,0.805574912891986
+imdb,True,10.0,none,tfidf,none,True,Decision Tree,0.7332462574098262
+imdb,True,10.0,none,tfidf,none,True,Random Forest,0.8194361127774445
+imdb,True,10.0,none,tfidf,none,True,Gradient Boosting,0.8209344295167436
+imdb,True,10.0,none,tfidf,none,True,AdaBoost,0.8080727345389149
+imdb,True,10.0,none,tfidf,noun,False,Decision Tree,0.58345134533684
+imdb,True,10.0,none,tfidf,noun,False,Random Forest,0.6632145395471621
+imdb,True,10.0,none,tfidf,noun,False,Gradient Boosting,0.6625987796338901
+imdb,True,10.0,none,tfidf,noun,False,AdaBoost,0.6524390243902439
+imdb,True,10.0,none,tfidf,noun,True,Decision Tree,0.5640051963625462
+imdb,True,10.0,none,tfidf,noun,True,Random Forest,0.6568598018613029
+imdb,True,10.0,none,tfidf,noun,True,Gradient Boosting,0.6551724137931034
+imdb,True,10.0,none,tfidf,noun,True,AdaBoost,0.6533733423676314
+imdb,True,10.0,lemma,frequency,none,False,Decision Tree,0.624113475177305
+imdb,True,10.0,lemma,frequency,none,False,Random Forest,0.721321381810857
+imdb,True,10.0,lemma,frequency,none,False,Gradient Boosting,0.7191033723606525
+imdb,True,10.0,lemma,frequency,none,False,AdaBoost,0.7057171514543631
+imdb,True,10.0,lemma,frequency,none,True,Decision Tree,0.6219252960825995
+imdb,True,10.0,lemma,frequency,none,True,Random Forest,0.7223898611949306
+imdb,True,10.0,lemma,frequency,none,True,Gradient Boosting,0.7304469273743017
+imdb,True,10.0,lemma,frequency,none,True,AdaBoost,0.7214565939040338
+imdb,True,10.0,lemma,frequency,noun,False,Decision Tree,0.5492165528324628
+imdb,True,10.0,lemma,frequency,noun,False,Random Forest,0.6025430680885973
+imdb,True,10.0,lemma,frequency,noun,False,Gradient Boosting,0.6106482422271896
+imdb,True,10.0,lemma,frequency,noun,False,AdaBoost,0.6000409165302782
+imdb,True,10.0,lemma,frequency,noun,True,Decision Tree,0.5522729533472596
+imdb,True,10.0,lemma,frequency,noun,True,Random Forest,0.6150589658300575
+imdb,True,10.0,lemma,frequency,noun,True,Gradient Boosting,0.6215553594194371
+imdb,True,10.0,lemma,frequency,noun,True,AdaBoost,0.6199901526341703
+imdb,True,10.0,lemma,tfidf,none,False,Decision Tree,0.7222448149654331
+imdb,True,10.0,lemma,tfidf,none,False,Random Forest,0.8113622724544909
+imdb,True,10.0,lemma,tfidf,none,False,Gradient Boosting,0.8106656054123967
+imdb,True,10.0,lemma,tfidf,none,False,AdaBoost,0.7972597299444003
+imdb,True,10.0,lemma,tfidf,none,True,Decision Tree,0.7440095846645367
+imdb,True,10.0,lemma,tfidf,none,True,Random Forest,0.8158657208512339
+imdb,True,10.0,lemma,tfidf,none,True,Gradient Boosting,0.8123496391339214
+imdb,True,10.0,lemma,tfidf,none,True,AdaBoost,0.8050906904499449
+imdb,True,10.0,lemma,tfidf,noun,False,Decision Tree,0.5733996144871665
+imdb,True,10.0,lemma,tfidf,noun,False,Random Forest,0.6634684086965398
+imdb,True,10.0,lemma,tfidf,noun,False,Gradient Boosting,0.6755351070214043
+imdb,True,10.0,lemma,tfidf,noun,False,AdaBoost,0.6578174080453947
+imdb,True,10.0,lemma,tfidf,noun,True,Decision Tree,0.5802995734550144
+imdb,True,10.0,lemma,tfidf,noun,True,Random Forest,0.643735130848533
+imdb,True,10.0,lemma,tfidf,noun,True,Gradient Boosting,0.6589231223545624
+imdb,True,10.0,lemma,tfidf,noun,True,AdaBoost,0.6546204458411077
+imdb,True,10.0,stem,frequency,none,False,Decision Tree,0.6431286257251451
+imdb,True,10.0,stem,frequency,none,False,Random Forest,0.73668402082499
+imdb,True,10.0,stem,frequency,none,False,Gradient Boosting,0.7362924281984334
+imdb,True,10.0,stem,frequency,none,False,AdaBoost,0.7253928028383173
+imdb,True,10.0,stem,frequency,none,True,Decision Tree,0.6360537397232805
+imdb,True,10.0,stem,frequency,none,True,Random Forest,0.7259348855962101
+imdb,True,10.0,stem,frequency,none,True,Gradient Boosting,0.7279095366756729
+imdb,True,10.0,stem,frequency,none,True,AdaBoost,0.7260930325414254
+imdb,True,10.0,stem,frequency,noun,False,Decision Tree,0.5395471621484415
+imdb,True,10.0,stem,frequency,noun,False,Random Forest,0.6052416052416052
+imdb,True,10.0,stem,frequency,noun,False,Gradient Boosting,0.604884029835496
+imdb,True,10.0,stem,frequency,noun,False,AdaBoost,0.602458600020319
+imdb,True,10.0,stem,frequency,noun,True,Decision Tree,0.5570197166352918
+imdb,True,10.0,stem,frequency,noun,True,Random Forest,0.6085901970692269
+imdb,True,10.0,stem,frequency,noun,True,Gradient Boosting,0.6235982931428005
+imdb,True,10.0,stem,frequency,noun,True,AdaBoost,0.6216665038585523
+imdb,True,10.0,stem,tfidf,none,False,Decision Tree,0.7199189052204764
+imdb,True,10.0,stem,tfidf,none,False,Random Forest,0.8043872006439927
+imdb,True,10.0,stem,tfidf,none,False,Gradient Boosting,0.8077689243027888
+imdb,True,10.0,stem,tfidf,none,False,AdaBoost,0.7970611596505163
+imdb,True,10.0,stem,tfidf,none,True,Decision Tree,0.7309098294069862
+imdb,True,10.0,stem,tfidf,none,True,Random Forest,0.8130325814536341
+imdb,True,10.0,stem,tfidf,none,True,Gradient Boosting,0.812936713914953
+imdb,True,10.0,stem,tfidf,none,True,AdaBoost,0.8043282236248873
+imdb,True,10.0,stem,tfidf,noun,False,Decision Tree,0.5843621399176955
+imdb,True,10.0,stem,tfidf,noun,False,Random Forest,0.6670721816707218
+imdb,True,10.0,stem,tfidf,noun,False,Gradient Boosting,0.6642239185750636
+imdb,True,10.0,stem,tfidf,noun,False,AdaBoost,0.6636880584890333
+imdb,True,10.0,stem,tfidf,noun,True,Decision Tree,0.5945786101527846
+imdb,True,10.0,stem,tfidf,noun,True,Random Forest,0.6643536875495638
+imdb,True,10.0,stem,tfidf,noun,True,Gradient Boosting,0.6538423401090728
+imdb,True,10.0,stem,tfidf,noun,True,AdaBoost,0.6530210588466837
+imdb,True,50.0,none,frequency,none,False,Decision Tree,0.6544125114247994
+imdb,True,50.0,none,frequency,none,False,Random Forest,0.7587451137616518
+imdb,True,50.0,none,frequency,none,False,Gradient Boosting,0.7629622286110835
+imdb,True,50.0,none,frequency,none,False,AdaBoost,0.7470023980815348
+imdb,True,50.0,none,frequency,none,True,Decision Tree,0.6345609065155807
+imdb,True,50.0,none,frequency,none,True,Random Forest,0.7496744465591506
+imdb,True,50.0,none,frequency,none,True,Gradient Boosting,0.7559429477020603
+imdb,True,50.0,none,frequency,none,True,AdaBoost,0.7470553004591735
+imdb,True,50.0,none,frequency,noun,False,Decision Tree,0.5703868746202148
+imdb,True,50.0,none,frequency,noun,False,Random Forest,0.6689426649261974
+imdb,True,50.0,none,frequency,noun,False,Gradient Boosting,0.6756677428823011
+imdb,True,50.0,none,frequency,noun,False,AdaBoost,0.6649560840817133
+imdb,True,50.0,none,frequency,noun,True,Decision Tree,0.5637318015252055
+imdb,True,50.0,none,frequency,noun,True,Random Forest,0.6383793590002016
+imdb,True,50.0,none,frequency,noun,True,Gradient Boosting,0.6590754257907543
+imdb,True,50.0,none,frequency,noun,True,AdaBoost,0.6452882156206965
+imdb,True,50.0,none,tfidf,none,False,Decision Tree,0.7315151515151516
+imdb,True,50.0,none,tfidf,none,False,Random Forest,0.8206565252201762
+imdb,True,50.0,none,tfidf,none,False,Gradient Boosting,0.8249281680372536
+imdb,True,50.0,none,tfidf,none,False,AdaBoost,0.8101545253863135
+imdb,True,50.0,none,tfidf,none,True,Decision Tree,0.7431201841288902
+imdb,True,50.0,none,tfidf,none,True,Random Forest,0.8273316708229427
+imdb,True,50.0,none,tfidf,none,True,Gradient Boosting,0.8263916700040048
+imdb,True,50.0,none,tfidf,none,True,AdaBoost,0.8172777498744349
+imdb,True,50.0,none,tfidf,noun,False,Decision Tree,0.5976706170821414
+imdb,True,50.0,none,tfidf,noun,False,Random Forest,0.6999796871826123
+imdb,True,50.0,none,tfidf,noun,False,Gradient Boosting,0.7091680647389716
+imdb,True,50.0,none,tfidf,noun,False,AdaBoost,0.700990099009901
+imdb,True,50.0,none,tfidf,noun,True,Decision Tree,0.5940710302318756
+imdb,True,50.0,none,tfidf,noun,True,Random Forest,0.6806982543640898
+imdb,True,50.0,none,tfidf,noun,True,Gradient Boosting,0.6905689789555729
+imdb,True,50.0,none,tfidf,noun,True,AdaBoost,0.6804123711340206
+imdb,True,50.0,lemma,frequency,none,False,Decision Tree,0.637078878353843
+imdb,True,50.0,lemma,frequency,none,False,Random Forest,0.7516791979949875
+imdb,True,50.0,lemma,frequency,none,False,Gradient Boosting,0.7609969218548307
+imdb,True,50.0,lemma,frequency,none,False,AdaBoost,0.7351962070009079
+imdb,True,50.0,lemma,frequency,none,True,Decision Tree,0.6349844268059881
+imdb,True,50.0,lemma,frequency,none,True,Random Forest,0.7394451145958987
+imdb,True,50.0,lemma,frequency,none,True,Gradient Boosting,0.7492766636735508
+imdb,True,50.0,lemma,frequency,none,True,AdaBoost,0.7368630573248408
+imdb,True,50.0,lemma,frequency,noun,False,Decision Tree,0.5725244776420713
+imdb,True,50.0,lemma,frequency,noun,False,Random Forest,0.6758551307847083
+imdb,True,50.0,lemma,frequency,noun,False,Gradient Boosting,0.6829940001967149
+imdb,True,50.0,lemma,frequency,noun,False,AdaBoost,0.6662688941925219
+imdb,True,50.0,lemma,frequency,noun,True,Decision Tree,0.5672264732187221
+imdb,True,50.0,lemma,frequency,noun,True,Random Forest,0.6424912104470115
+imdb,True,50.0,lemma,frequency,noun,True,Gradient Boosting,0.6578538102643857
+imdb,True,50.0,lemma,frequency,noun,True,AdaBoost,0.6517970195772864
+imdb,True,50.0,lemma,tfidf,none,False,Decision Tree,0.7226262626262626
+imdb,True,50.0,lemma,tfidf,none,False,Random Forest,0.8185934198611531
+imdb,True,50.0,lemma,tfidf,none,False,Gradient Boosting,0.8205943743166684
+imdb,True,50.0,lemma,tfidf,none,False,AdaBoost,0.8084172733619228
+imdb,True,50.0,lemma,tfidf,none,True,Decision Tree,0.73573452043707
+imdb,True,50.0,lemma,tfidf,none,True,Random Forest,0.8237753882915173
+imdb,True,50.0,lemma,tfidf,none,True,Gradient Boosting,0.8222822282228223
+imdb,True,50.0,lemma,tfidf,none,True,AdaBoost,0.8106805862276651
+imdb,True,50.0,lemma,tfidf,noun,False,Decision Tree,0.5968532897425419
+imdb,True,50.0,lemma,tfidf,noun,False,Random Forest,0.7061918251719952
+imdb,True,50.0,lemma,tfidf,noun,False,Gradient Boosting,0.7093115797851174
+imdb,True,50.0,lemma,tfidf,noun,False,AdaBoost,0.6918505087136093
+imdb,True,50.0,lemma,tfidf,noun,True,Decision Tree,0.5808580858085809
+imdb,True,50.0,lemma,tfidf,noun,True,Random Forest,0.6746406674037592
+imdb,True,50.0,lemma,tfidf,noun,True,Gradient Boosting,0.6827270067297376
+imdb,True,50.0,lemma,tfidf,noun,True,AdaBoost,0.67923790913532
+imdb,True,50.0,stem,frequency,none,False,Decision Tree,0.6381904473391902
+imdb,True,50.0,stem,frequency,none,False,Random Forest,0.7586969636034587
+imdb,True,50.0,stem,frequency,none,False,Gradient Boosting,0.7646299056135122
+imdb,True,50.0,stem,frequency,none,False,AdaBoost,0.734857601283594
+imdb,True,50.0,stem,frequency,none,True,Decision Tree,0.6453893546106454
+imdb,True,50.0,stem,frequency,none,True,Random Forest,0.755059316120028
+imdb,True,50.0,stem,frequency,none,True,Gradient Boosting,0.7527287160150824
+imdb,True,50.0,stem,frequency,none,True,AdaBoost,0.7505448781454329
+imdb,True,50.0,stem,frequency,noun,False,Decision Tree,0.5726149483491999
+imdb,True,50.0,stem,frequency,noun,False,Random Forest,0.6762647470505899
+imdb,True,50.0,stem,frequency,noun,False,Gradient Boosting,0.6831585196912725
+imdb,True,50.0,stem,frequency,noun,False,AdaBoost,0.6691264459513363
+imdb,True,50.0,stem,frequency,noun,True,Decision Tree,0.5640310695080661
+imdb,True,50.0,stem,frequency,noun,True,Random Forest,0.6472303206997084
+imdb,True,50.0,stem,frequency,noun,True,Gradient Boosting,0.6556388050987643
+imdb,True,50.0,stem,frequency,noun,True,AdaBoost,0.6527791297576171
+imdb,True,50.0,stem,tfidf,none,False,Decision Tree,0.7252636865896535
+imdb,True,50.0,stem,tfidf,none,False,Random Forest,0.8272709202941761
+imdb,True,50.0,stem,tfidf,none,False,Gradient Boosting,0.8276614743526144
+imdb,True,50.0,stem,tfidf,none,False,AdaBoost,0.8095619123824765
+imdb,True,50.0,stem,tfidf,none,True,Decision Tree,0.7344587081774993
+imdb,True,50.0,stem,tfidf,none,True,Random Forest,0.8219806522389548
+imdb,True,50.0,stem,tfidf,none,True,Gradient Boosting,0.8195737015911138
+imdb,True,50.0,stem,tfidf,none,True,AdaBoost,0.8166034723608062
+imdb,True,50.0,stem,tfidf,noun,False,Decision Tree,0.5953346855983773
+imdb,True,50.0,stem,tfidf,noun,False,Random Forest,0.7028559854162447
+imdb,True,50.0,stem,tfidf,noun,False,Gradient Boosting,0.7071449865845175
+imdb,True,50.0,stem,tfidf,noun,False,AdaBoost,0.6957470010905126
+imdb,True,50.0,stem,tfidf,noun,True,Decision Tree,0.5957701516360734
+imdb,True,50.0,stem,tfidf,noun,True,Random Forest,0.6756919374247894
+imdb,True,50.0,stem,tfidf,noun,True,Gradient Boosting,0.6864506052323311
+imdb,True,50.0,stem,tfidf,noun,True,AdaBoost,0.6785055798156235
