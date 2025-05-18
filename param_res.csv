@@ -1,0 +1,11 @@
+dataset,model,cv_score,test_score,tfidf__sublinear_tf,tfidf__stop_words,tfidf__ngram_range,tfidf__min_df,tfidf__max_features,tfidf__max_df,clf__n_estimators,clf__min_samples_split,clf__max_depth,clf__subsample,clf__learning_rate,clf__estimator__max_depth,clf__tree_method,clf__gpu_id,clf__colsample_bytree,clf__penalty,clf__max_iter,clf__C
+ag_news,RandomForest,0.865676956196931,0.8923749139500164,True,english,"(1, 2)",3,10000,0.5,200.0,5.0,,,,,,,,,,
+ag_news,GBM,0.8455421941269168,0.8617726571582728,True,english,"(1, 2)",3,10000,0.5,,,5.0,1.0,0.1,,,,,,,
+ag_news,AdaBoost,0.7639627846306128,0.7672934007092944,True,english,"(1, 2)",3,10000,0.7,100.0,,,,0.5,5.0,,,,,,
+ag_news,XGBoost,0.5599414465100175,0.5741529231233271,True,english,"(1, 1)",5,10000,0.9,,,5.0,0.6,0.1,,gpu_hist,0.0,0.6,,,
+ag_news,LogisticRegression,0.9012649615043423,0.9176281826202484,True,english,"(1, 2)",3,10000,0.9,,,,,,,,,,l2,1000.0,1.0
+imdb,RandomForest,0.8401994092993538,0.8476647664766477,True,english,"(1, 2)",5,10000,0.7,200.0,2.0,,,,,,,,,,
+imdb,GBM,0.8140580545563522,0.8232856757516098,False,english,"(1, 2)",3,10000,0.7,,,5.0,1.0,0.1,,,,,,,
+imdb,AdaBoost,0.8207439452419673,0.8261410771926634,True,english,"(1, 1)",3,10000,0.7,100.0,,,,0.5,5.0,,,,,,
+imdb,XGBoost,0.6206412873259134,0.6093874111994021,False,english,"(1, 2)",1,10000,0.5,,,3.0,0.6,0.1,,gpu_hist,0.0,0.8,,,
+imdb,LogisticRegression,0.8643620045390952,0.8821984391764397,True,english,"(1, 2)",3,10000,0.9,,,,,,,,,,l2,1000.0,1.0
